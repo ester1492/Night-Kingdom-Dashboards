@@ -6,5 +6,13 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Night-Kingdom-IPS/'
+  base: '/Night-Kingdom-IPS/',
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
+  build: {
+    rollupOptions: {
+      input: 'index.html', 
+    },
+  },
 });
