@@ -1,6 +1,5 @@
 {
-  "homepage": "https://ruty-pe.github.io/Night-Kingdom-IPS/",
-  "name": "night-kingdom",
+  "name": "night-kingdom-dashboards",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +12,8 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",

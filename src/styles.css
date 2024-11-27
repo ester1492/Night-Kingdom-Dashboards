@@ -1,0 +1,62 @@
+.page {
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    background-size: contain; /* Scales the image to fit inside the container */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    background-position: center; /* Centers the image */
+    background-color: #1f242d; /* Fills extra space with black */
+  }
+  
+  .page1 {
+    background-image: url('../public/assets/MatehNetzivut.png');
+  }
+  
+  .page2 {
+    background-image: url('../public/assets/Machoz.png');
+  }
+  
+  .page3 {
+    background-image: url('../public/assets/Bisar.png');
+  }
+  
+  .page4 {
+    background-image: url('../public/assets/Soher.png');
+  }
+  
+  .button {
+    position: absolute;
+    color: transparent;
+    background-color: transparent;
+    border: 2px solid #5b677c;
+    padding: 10px 20px;
+    /* border: none; */
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button1 {
+    top: 33%;
+    width: 320px;
+    right: 29%;
+    height: 180px;
+  }
+  
+  .button2 {
+        top: 52%;
+        width: 320px;
+        right: 51%;
+        height: 41px;
+    }  
+  
+  .button3 {
+    bottom: 13%;
+    width: 40px;
+    right: 22%;
+    height: 63px;
+  }
+  
+  .button4 {
+    top: 0%;
+    width: 320px;
+    left: 3%;
+    height: 93px;  }
