@@ -8,14 +8,15 @@ import './styles.css'
 function App() {
   return (
     // <h1>Hi!</h1>
-    <Router>
-      <Routes basename='/Night-Kingdom-Dashboards/'>
-        <Route path="/" element={<MatehNetzivut />} />
-        <Route path="/Machoz" element={<Machoz />} />
-        <Route path="/Bisar" element={<Bisar />} />
-        <Route path="/Soher" element={<Soher />} />
-      </Routes>
-    </Router>
+    <MatehNetzivut />
+    // <Router>
+    //   <Routes basename='/Night-Kingdom-Dashboards/'>
+    //     <Route path="/" element={<MatehNetzivut />} />
+    //     <Route path="/Machoz" element={<Machoz />} />
+    //     <Route path="/Bisar" element={<Bisar />} />
+    //     <Route path="/Soher" element={<Soher />} />
+    //   </Routes>
+    // </Router>
   );
 };
 
