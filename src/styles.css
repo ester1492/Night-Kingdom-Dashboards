@@ -8,19 +8,19 @@
   }
   
   .page1 {
-    background-image: url('../public/assets/MatehNetzivut.png');
+    background-image: url('/assets/MatehNetzivut.png');
   }
   
   .page2 {
-    background-image: url('../public/assets/Machoz.png');
+    background-image: url('/assets/Machoz.png');
   }
   
   .page3 {
-    background-image: url('../public/assets/Bisar.png');
+    background-image: url('/assets/Bisar.png');
   }
   
   .page4 {
-    background-image: url('../public/assets/Soher.png');
+    background-image: url('/assets/Soher.png');
   }
   
   .button {
