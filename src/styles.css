@@ -27,9 +27,9 @@
     position: absolute;
     color: transparent;
     background-color: transparent;
-    border: 2px solid #5b677c;
+    /* border: 2px solid #5b677c; */
     padding: 10px 20px;
-    /* border: none; */
+    border: none;
     cursor: pointer;
     font-size: 16px;
   }
@@ -49,11 +49,11 @@
     }  
   
   .button3 {
-    bottom: 13%;
-    width: 40px;
-    right: 22%;
-    height: 63px;
-  }
+    bottom: 4%;
+    width: 255px;
+    right: 8%;
+    height: 200px;
+    }
   
   .button4 {
     top: 0%;
