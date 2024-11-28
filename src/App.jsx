@@ -5,6 +5,7 @@ import Machoz from './components/Machoz';
 import Bisar from './components/Bisar';
 import Soher from './components/Soher';
 import './styles.css'
+import DemoVideo from './components/DemoVideo';
 function App() {
   return (
     // <h1>Hi!</h1>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/Machoz" element={<Machoz />} />
         <Route path="/Bisar" element={<Bisar />} />
         <Route path="/Soher" element={<Soher />} />
+        <Route path="/DemoVideo" element={<DemoVideo />} />
       </Routes>
     </BrowserRouter>
   );

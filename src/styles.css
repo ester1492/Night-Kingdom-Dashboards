@@ -1,65 +1,121 @@
 .page {
-    width: 100vw; /* Full width of the viewport */
-    height: 100vh; /* Full height of the viewport */
-    background-size: contain; /* Scales the image to fit inside the container */
-    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
-    background-position: center; /* Centers the image */
-    background-color: #1f242d; /* Fills extra space with black */
-  }
-  
-  .page1 {
-    background-image: url('/assets/MatehNetzivut.png');
-  }
-  
-  .page2 {
-    background-image: url('/assets/Machoz.png');
-  }
-  
-  .page3 {
-    background-image: url('/assets/Bisar.png');
-  }
-  
-  .page4 {
-    background-image: url('/assets/Soher.png');
-  }
-  
-  .button {
-    position: absolute;
-    color: transparent;
-    background-color: transparent;
-    /* border: 2px solid #5b677c; */
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  .button:active, .button:hover, .button:focus{
-    border:none;
-    outline: none;
-  }
-  .button1 {
-    top: 33%;
-    width: 320px;
-    right: 29%;
-    height: 180px;
-  }
-  
-  .button2 {
-        top: 52%;
-        width: 320px;
-        right: 51%;
-        height: 41px;
-    }  
-  
-  .button3 {
-    bottom: 4%;
-    width: 255px;
-    right: 8%;
-    height: 200px;
-    }
-  
-  .button4 {
-    top: 0%;
-    width: 320px;
-    left: 3%;
-    height: 93px;  }
+  width: 100vw;
+  /* Full width of the viewport */
+  height: 100vh;
+  /* Full height of the viewport */
+  background-size: contain;
+  /* Scales the image to fit inside the container */
+  background-repeat: no-repeat;
+  /* Ensures the image doesn't repeat */
+  background-position: center;
+  /* Centers the image */
+  background-color: #1f242d;
+  /* Fills extra space with black */
+}
+
+.page1 {
+  background-image: url('/assets/MatehNetzivut.png');
+}
+
+.page2 {
+  background-image: url('/assets/Machoz.png');
+}
+
+.page3 {
+  background-image: url('/assets/Bisar.png');
+}
+
+.page4 {
+  background-image: url('/assets/Soher.png');
+}
+
+.page5 {
+  background-image: url('/assets/background.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .video-page {
+    width: 100vw;
+    height: 100vh;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black; 
+    position: relative; 
+  } */
+
+/* Centered Video */
+
+/* Centered Video */
+.video-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Center the video */
+  width: 65vw;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  width: 100%;
+  /* Ensure the video takes the container width */
+  height: 100%;
+  /* Ensure the video takes the container height */
+  object-fit: contain;
+  /* Scale the video to fit within the container */
+  background-color: black;
+  border-radius: 7px;
+  /* Optional: Black background if video aspect ratio leaves gaps */
+}
+
+.button {
+  position: absolute;
+  color: transparent;
+  background-color: transparent;
+  /* border: 2px solid #5b677c; */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:active,
+.button:hover,
+.button:focus {
+  border: none;
+  outline: none;
+}
+
+.button1 {
+  top: 33%;
+  width: 320px;
+  right: 29%;
+  height: 180px;
+}
+
+.button2 {
+  top: 52%;
+  width: 320px;
+  right: 51%;
+  height: 41px;
+}
+
+.button3 {
+  bottom: 4%;
+  width: 255px;
+  right: 8%;
+  height: 200px;
+}
+
+.button4 {
+  top: 0%;
+  width: 320px;
+  left: 3%;
+  height: 93px;
+}
