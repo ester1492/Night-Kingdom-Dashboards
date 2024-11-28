@@ -120,10 +120,11 @@ video {
   height: 93px;
 }
 .videoLink{
-  top: 0%;
-  width: 320px;
-  right: 3%;
-  height: 93px;
+    top: 1%;
+    /* width: 320px; */
+    right: 12%;
+    /* height: 93px; */
+    color: white;
 
 }
 
