@@ -33,7 +33,10 @@
     cursor: pointer;
     font-size: 16px;
   }
-  
+  .button:active, .button:hover, .button:focus{
+    border:none;
+    outline: none;
+  }
   .button1 {
     top: 33%;
     width: 320px;
